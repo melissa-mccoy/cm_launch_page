@@ -26,6 +26,12 @@ p.large {
     font-size: 16px;
 }
 
+p.subheading {
+    font-style: italic;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+
 a,
 a:hover,
 a:focus,
@@ -54,6 +60,15 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+.tool h4 {
+    margin:2px;
+    font-size:20px;
+}
+
+.tool img {
+    margin-bottom: 20px;
 }
 
 .img-centered {
