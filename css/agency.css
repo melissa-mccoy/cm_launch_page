@@ -63,7 +63,7 @@ h6 {
 }
 
 .tool h4 {
-    margin:2px;
+    margin-bottom:2px;
     font-size:20px;
 }
 
@@ -319,7 +319,7 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
@@ -535,7 +535,7 @@ section h3.section-subheading {
     }
 
     .timeline>li {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         min-height: 100px;
     }
 
