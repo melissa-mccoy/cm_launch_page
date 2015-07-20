@@ -41,14 +41,14 @@ a.active {
 }
 
 a {
-    color: #BBBDDB;
+    color: #898AA6;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #898AA6;
+    color: #BBBDDB;
 }
 
 h1,
@@ -69,6 +69,9 @@ h6 {
 
 .tool img {
     margin-bottom: 20px;
+    margin-left: 10%;
+    height: 80%;
+    width: 80%;
 }
 
 .img-centered {
@@ -227,16 +230,20 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
 }
 
-.navbar-default .nav li a:hover,
+.navbar-default .nav li a:hover {
+    outline: 0;
+    color: #898AA6;
+}
+
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #BBBDDB;
+    color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #BBBDDB;
+    background-color: #898AA6;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -310,6 +317,7 @@ header .intro-text .intro-heading {
 
 section {
     padding: 50px 0;
+    padding-top:150px;
 }
 
 section h2.section-heading {
