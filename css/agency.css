@@ -673,19 +673,15 @@ section h3.section-subheading {
 
 aside.clients img{
     margin: 50px auto;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    /*filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);*/
 }
 
 aside.clients img:hover,
 aside.clients img:focus,
 aside.clients img:active {
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-}
-
-aside.clients img a:hover {
-
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
 
 section#contact {
