@@ -3,11 +3,12 @@ $(function() {
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
-            // additional error messages or events
+            console.log("error in validation")
         },
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
+            console.log("success in validation")
             var name = $("input#name").val();
             var email = $("input#email").val();
             var phone = $("input#phone").val();
@@ -29,6 +30,7 @@ $(function() {
                 cache: false,
                 success: function() {
                     // Success message
+                    console.log("success in sending")
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
@@ -42,6 +44,7 @@ $(function() {
                 },
                 error: function() {
                     // Fail message
+                    console.log("error in sending")
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
